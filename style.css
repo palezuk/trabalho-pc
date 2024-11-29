@@ -1,0 +1,34 @@
+*{
+margin: 0;/*Remove a margem*/
+padding: 0;/*Remove o preechimento*/
+box-sizing: border-box;/*Faz com que o padding e a borda sejam incluídos no tamnho do elemento*/
+}
+
+/* Estilo para o corpo da página*/
+body {
+  font-family: Arial, Helvetica, sans-serif;/*Define a fonte padrão da página*/
+  background-color: #f4f4f9;/* Cor de fundo suave para o corpo*/
+  color: #333;/*Cor do texto, um tom cinza escuro*/
+  line-height: 1.6;/*Altura da linha para facilitar a leitura*/
+  padding: 20px;/*Espcaçamento interno em torno do conteúdo*/
+}
+
+/*Estilo para o cabeçalho*/
+header{
+  background-color: #0073e6;/*Cor de fundo azul*/
+  color: white;/*Cor de texto branca*/
+  padding: 20px;/*Espaçamento interno*/
+  text-align: center;/*Centralizar o texto no cabeçalho*/
+}
+
+/*Estilo para os titulos dentro do cabeçalho*/
+header h1{
+   font-size: 2.5em;/*Tamanho da fonte do titulo*/
+   margin-bottom: 10px;/*Espaço abaixo do titulo*/
+}
+
+/*Estilo para o paragrafo dentro do cabeçalho*/
+header p{
+    font-size: 1.2em;/*Tamanho da fonte do parágrafo*/
+
+}
